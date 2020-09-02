@@ -29,8 +29,6 @@ body{
     /* background-repeat: inherit; */
 }
 
-
-
 #myName{
     margin-left: 10px;
     font-size: 110px;
@@ -41,13 +39,10 @@ body{
     color:#ffffff;
     font-size: 45px;
     text-align: center;
-    /* position: absolute; */
     display: inline-block;
-    /* margin: 0% 0px 20% 30%; */
 }
 
 #task{
-    /* font-family:Verdana, Geneva, Tahoma, sans-serif; */
     letter-spacing: 2px;
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -58,7 +53,7 @@ body{
 #nav{
     background-color:  transparent;
     width: 100%;
-    height: 10vh;
+    height: 10%;
     overflow: hidden;
     top: 0px;
     box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
@@ -69,7 +64,7 @@ body{
 nav.scrolled{
     background-color:  rgb(0, 2, 63);
     width: 100%;
-    height: 10vh;
+    height: 10%;
     overflow: hidden;
     top: 0px;
     box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
@@ -85,6 +80,7 @@ nav.scrolled{
     padding-top: 2%;
     margin: 7%;
     border-radius: 10px;
+    max-height: 10%;
     /* padding: 10px; */
     /* position: absolute; */
     /* display: inline-block; */
@@ -95,6 +91,14 @@ nav.scrolled{
     margin-top:2%;
 }
 
+#aboutDiv center{
+    color: #fff;
+}
+
+#aboutDiv center i{
+    margin-right: 5px;
+}
+
 #aboutMe{
     border-bottom-style: double ;
     margin-bottom: 5%;
@@ -102,11 +106,13 @@ nav.scrolled{
 
 #aboutDiv1{
     display: inline-block;
-    margin-top: 7%;
+    margin-top: 10%;
+    top: 0%;
     float: right;
     margin-right: 7%;
     text-align: center;
-    width: 350px;
+    width: 45%;
+    height: 45%;
     color: rgba(255, 255, 255, 0.9);
     border-radius: 12px 0;
     border: 2px solid rgb(255, 255, 255);
@@ -136,30 +142,33 @@ nav.scrolled{
     /* border: 1px inset rgba(3, 19, 72)  ; */
     width:inherit;
     margin: auto;
+    height: inherit;
     cursor: pointer;
     border-radius: inherit;
 }
 
 #name{
     font-size:40px;
-    /* margin-left: 8%; */
+    margin-left: 8%;
 }
 #navList{
     display: inline-flex;
-    float: right;
+    /* float: right; */
+    padding-right: 10%;
     list-style: none;
     line-height: 10vh;
 }
 
-#navList h2{
+#profile{
     color: rgb(255, 255, 255);
-    margin-left: -60%;
-    font-family: cursive;
-    margin-right: 60%;
+    margin-left: 5%;
+    display: inline-block;
+    font-family: tahoma;
+    margin-right: 40%;
 }
 
 #navList li{
-    margin:0 20px;
+    margin:0 5%;
 }
 
 #navList li a{
@@ -173,6 +182,8 @@ nav.scrolled{
     font-size: 17px;
     border-bottom: 1px solid white;
 }
+
+
 #contactMe{
     width: 60px;
     height: 30px;
@@ -245,6 +256,7 @@ nav.scrolled{
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 30px;
 }
+
 #percent{
     width: 100%;
     height: 100%;
@@ -263,9 +275,6 @@ nav.scrolled{
     margin-left: 20%;
 }
 
-
-
-
 #service{
     width: 90%;
     min-height: 20%;
@@ -276,7 +285,6 @@ nav.scrolled{
     padding: 5% 5% 4% 5%;
     background-color: rgba(3, 19, 72, .7);
 }
-
 
 #bigHeader{
     color: rgb(255, 255, 255);
@@ -474,5 +482,240 @@ fieldset{
 }
 
 .social li:nth-child(5) a:hover .fa{
-    color: #dd4b39;
+    color: purple;
+}
+
+
+
+@media (max-width:750px){
+    #bg{
+        filter:opacity(.7);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }   
+
+    #myName{
+        margin-left: 10px;
+        
+        font-size: 50px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+   
+    #intro1{
+        color:#ffffff;
+        font-size: 10px;
+        /* margin-top: 100px; */
+    }
+
+    #task{
+        font-size: 15px;
+    }
+
+    #about{
+        padding-bottom: 3%;
+        padding-left: 2%;
+        background-color: rgba(3, 19, 72, .7);
+        padding-top: 2%;
+        margin: 2%; 
+
+    }
+    
+    #intr #img{
+        margin-left: 25%;
+        width: 50%;
+        padding-top: 5%;
+        height: 50%;
+    }
+    
+    #img img{
+        width:100%;
+        height: 100%;
+    }
+
+    #name{
+        font-size:20px;
+        margin-left: 25%;
+    }
+
+    /* #navLIst{
+        margin-top: 29px;
+    } */
+
+    /* #navList h2{
+        margin: 0px;
+        margin-right: 30px;
+    } */
+    
+    #contactDiv1 > fieldset{
+        width: 90%;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 1%;
+        margin-left: 5%;
+        display: inline-block;
+    }
+
+    #skills{
+        background :  transparent;
+        padding: 0% 0% 0% 7%;
+        margin: 10%;
+        border-radius: 10px;
+        background-size: 100%;
+        text-align: center;
+    }
+    
+    #skillWord{
+        display: block;
+        width: 90%;
+        margin-top: 12%;
+        border-radius: 10px;
+        color: rgba(1, 11, 43);
+        background-color: rgba(0, 0, 0, 0.2);
+    }
+    
+    #SkillWordDiv{
+        border-bottom: 2px solid rgb(0, 2, 63);
+        font-size: 26px;
+        font-family: monospace;
+    }
+    
+    #skillsName{
+        font-family: sans-serif;
+        /* margin: 1.5%; */
+        text-align: center;
+        /* margin-left: 100%; */
+        /* font-family: 'Times New Roman', Times, serif; */
+        text-transform: uppercase;
+        font-size: 16px;
+    }
+    
+    #skillsName b{
+        padding-right: 35%;
+        margin: auto;
+        color: rgba(3, 19, 72);
+        letter-spacing: 2px;
+        font-family: monospace;
+    }
+    
+    #progress{
+        width: 70%;
+        height: 18px;
+        margin-bottom: 4%;
+        color: rgba(3, 19, 72, .7);
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 30px;
+    }
+    
+    #percent{
+        width: 100%;
+        height: 100%;
+        background: rgba(3, 19, 72);
+        font-weight: lighter;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        line-height: 18px;
+        border-radius: 30px;
+    }
+    
+    #SKILL{
+        display:block;
+        /* margin-left: 76%; */
+        text-align: center;
+        margin-top: 2%;
+        margin-left: 5%;
+    }
+/* 
+    nav.scrolled{
+        display:none;
+    } */
+    
+    .social{
+        list-style-type: none;
+        margin-left: 30%;
+        display: inline-flex;
+    }
+
+    #aboutDiv{
+        display: inline-block;
+        margin-top:2%;
+    }
+    #aboutDiv1{
+        display: block;
+        margin-top: 7%;
+        /* float: right; */
+        background-color: rgba(3, 19, 72, .7);
+        margin-right:2%;
+        text-align: center;
+        width: 97%;
+        color: rgba(255, 255, 255, 0.9);
+        border-radius: 12px 0;
+        border: 2px solid rgb(255, 255, 255);
+        box-shadow: 0px 13px 15px rgba(0, 0, 0, 0.9);
+        padding: 1%;
+    }
+
+    #nav{
+        overflow: visible;
+    }
+
+    
+    #navList{
+        /* display: block; */
+        /* float: right; */
+        padding:0 10%;
+        list-style: none;
+        font-size: 10px;
+        line-height: 10vh;
+    }
+
+    #navList li a{
+        display: inline-flex;
+    }
+    
+    #profile{
+        /* display: none; */
+        font-size: 10px;
+        color: rgb(255, 255, 255);
+        /* display: inline-block; */
+        font-family: tahoma;
+        margin-right: 0%;
+    }
+    #contactDiv div{
+        margin: 2%;
+        /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+        font-size: 14px;
+    }
+    #contactDiv{
+        display: inline;
+        float: right;
+        margin: 4% 8% 4% 0px; 
+        /* padding: 5%; */
+    }
+
+    #messageForm form input, textarea{
+        height: 7%;
+        padding: 1.7%;
+    }
+    
+    #messageForm form input:nth-child(1){
+        margin-top: 7%;
+    }
+    
+    textarea{
+        height: 110px;
+    }
+    
+    legend{
+        text-transform: uppercase;
+        text-align: center;
+        padding: .5%;
+        font-size: 16px;
+    }
+    
+    [type='submit']{
+        margin: 2% 35% 4% 35% ;
+        /* letter-spacing: 1px; */
+        padding: 3%;
+        font-size: 10px;
+    }
 }
