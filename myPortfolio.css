@@ -362,13 +362,13 @@ nav.scrolled{
 }
 
 #contactDiv1{
-    display: inline-block;
+    display: inline-table;
 }
 
 #contactDiv{
-    display: inline;
-    float: right;
-    margin: 25px 5% 25px 0px; 
+    display: inline-table;
+    /* float: right; */
+    margin: 10%; 
     /* padding: 5%; */
 }
 
