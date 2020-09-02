@@ -507,7 +507,7 @@ fieldset{
     #myName{
         margin-left: 10px;
         
-        font-size: 35px;
+        font-size: 25px;
         font-family:Verdana, Geneva, Tahoma, sans-serif;
     }
 
@@ -730,7 +730,7 @@ fieldset{
     }
     
     legend{
-        text-transform: uppercase;
+        /* text-transform: uppercase; */
         text-align: center;
         /* padding: %; */
         font-size: 16px;
