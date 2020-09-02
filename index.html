@@ -22,17 +22,17 @@
                       <li><a href="#skills" class="links">Skills</a></li>
                       <li><a href="#service" class="links">Services</a></li>
                       <li><a href="#contact" class="links">Contact</a></li>
-                      <li><a href="" class="links">Testimonials</a></li>
+                      <!-- <li><a href="" class="links">Testimonials</a></li> -->
                    </ul>
                </div>
             </nav>
           </div>
             <div id="home">
                 <div id="intro1">
-                    <h2 id="homeIntro">Hi I'm<span id="myName">Sanusi</span></h2>
+                    <h2 id="homeIntro"> <center id="welcome">Welcome</center> <h3 id="im">I'm</h3><span id="myName">Sanusi</span></h2>
                     <p id="task">
-                        I'm a web developer <br>
                         A web designer <br>
+                        A web developer <br>
                         A computer engineer <br>
                     </p>
                 </div>
@@ -250,7 +250,7 @@
            const nav = document.querySelector('.nav');
            window.onscroll = function () {
                var top = window.scrollY;
-               if (top >= 70) {
+               if (top >= 20) {
                     nav.classList.add('scrolled')                   
                }
                else{
