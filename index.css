@@ -32,7 +32,7 @@
     background: url("bg1.png");
     background-size: 100%;
     background-repeat: no-repeat;
-    padding: 10% 0px 20% 0%;
+    padding: 7% 0px 10% 0%;
     text-align: center;
     /* background-repeat: inherit; */
 }
@@ -83,67 +83,31 @@ nav.scrolled{
 }
 
 #about{
-    padding-bottom: 3%;
-    padding-left: 2%;
     background-color: rgba(3, 19, 72, .7);
-    padding-top: 2%;
-    margin: 7%;
-    border-radius: 10px;
-    max-height: 10%;
-    /* padding: 10px; */
-    /* position: absolute; */
-    /* display: inline-block; */
+    padding: 6%;
+    display: flex;
+    justify-content: center;
 }
 
 #aboutDiv{
-    display: inline-block;
-    margin-top:2%;
-}
-
-#aboutDiv center{
-    color: #fff;
-}
-
-#aboutDiv center i{
-    margin-right: 5px;
-}
-
-#aboutMe{
-    border-bottom-style: double ;
-    margin-bottom: 5%;
+    margin-right: 10%;
 }
 
 #aboutDiv1{
-    display: inline-block;
-    margin-top: 10%;
-    top: 0%;
-    float: right;
-    margin-right: 7%;
+    border: 1px solid #fff;    
     text-align: center;
-    width: 45%;
-    height: 45%;
-    color: rgba(255, 255, 255, 0.9);
-    border-radius: 12px 0;
-    border: 2px solid rgb(255, 255, 255);
-    box-shadow: 0px 13px 15px rgba(0, 0, 0, 0.9);
-    padding: 4%;
+    padding: 5%;
+    padding-bottom: 0%;
+    width: 37%;
+    height: 80vh;
+    margin-left: 8%;
 }
 
-#intr{
-    color: rgb(255, 255, 255);
-    padding-top: 10%;
-}
-
-#intr #img{
-    box-shadow: 0px 13px 15px rgba(0, 0, 0, 0.9);
-    margin-left: 7%;
-    margin-bottom: 10px;
-    border-radius: 8%;
-    width: 350px;
-    /* position: relative; */
-    height: 350px;
-    /* transform: translate(-50%, -50%); */
-    /* border: 2px solid #fff; */
+#aboutDiv1 #aboutMe{
+    width: 30%;
+    margin-left: 35%;
+    border-bottom: 3px dotted #fff;
+    margin-bottom: 4%;
 }
 
 #img img{
@@ -518,12 +482,16 @@ fieldset{
 
 
 @media (max-width:750px){
-    #bg{
-        filter:opacity(.7);
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
+    body{
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        background: #ecf0f3 !important;
     }   
+
+    #bg{
+        background-image: none;
+    }
 
     #myName{
         margin-left: 10px;
@@ -555,20 +523,15 @@ fieldset{
     }
 
     #about{
-        padding-bottom: 3%;
-        padding-left: 2%;
-        background-color: rgba(3, 19, 72, .7);
-        padding-top: 2%;
-        margin: 2%; 
-        /* text-align: center; */
+        background-color: #ecf0f3;
+        align-items: center;
+        justify-content: center;
+        box-shadow: -3px -3px -7px #fff,
+        3px 3px 5px #ceced1;
     }
     
-    #intr #img{
-        margin-left: 20%;
-        justify-self: center;
-        width: 60%;
-        /* padding-top: 5%; */
-        height: 60%;
+    #intr {
+
     }
     
     #img img{
@@ -679,10 +642,8 @@ fieldset{
     }
 
     #aboutDiv{
-        display: inline-block;
-        margin-top:2%;
-        /* text-align: center; */
-        /* margin-left: 22%; */
+        box-shadow: -3px -3px -7px #fff,
+                     3px 3px 5px #ceced1;
     }
     #aboutDiv1{
         display: block;
