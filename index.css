@@ -526,8 +526,10 @@ fieldset {
   body {
     align-items: center;
     justify-content: center;
-    height: 100vh;
     background: #ecf0f3 !important;
+  }
+  #bg{
+      display: none;
   }
 
   ul li a span i {
@@ -543,13 +545,11 @@ fieldset {
 
   #myName {
     margin-left: 10px;
-
     font-size: 27px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
 
   #im {
-    /* text-transform: uppercase; */
     font: 20px Tahoma;
   }
 
@@ -720,7 +720,6 @@ fieldset {
   #nav2 {
     background: rgb(3, 19, 72);
     width: 17%;
-    min-height: 100vh;
     overflow: visible;
     top: 0px;
     bottom: 0%;
