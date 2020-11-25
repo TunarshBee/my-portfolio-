@@ -703,13 +703,13 @@ fieldset {
     display: block;
   }
 
-  .nav{
+  .nav, #nav{
     display: none;
   }
 
   #nav2 {
     background: rgba(3, 19, 72, 0.7);
-    width: 10%;
+    width: 15%;
     min-height: 100vh;
     overflow: visible;
     top: 0px;
