@@ -60,12 +60,11 @@
 }
 
 #nav{
-    background-color:  transparent;
+    background:none;
     width: 100%;
     height: 10%;
     overflow: hidden;
     top: 0px;
-    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
     position: fixed;
     padding: 0;
 }
@@ -93,13 +92,34 @@ nav.scrolled{
     margin-right: 10%;
 }
 
+#aboutDiv #intr{
+}
+#aboutDiv #intr #img{
+    width: 100%;
+    border-radius: 16px;
+}
+
+#aboutDiv #name{
+    padding: 0px;
+    margin-bottom: 0px;
+    color: #fff;
+}
+#aboutDiv #gmail, #aboutDiv #phone{
+    margin-top: 0px;
+    color: #fff;
+    padding-top: 0px;
+}
+
 #aboutDiv1{
     border: 1px solid #fff;    
     text-align: center;
+    border-radius: 14px;
     padding: 5%;
     padding-bottom: 0%;
     width: 37%;
     height: 80vh;
+    box-shadow: 3px 3px 10px black;
+    color: #fff;
     margin-left: 8%;
 }
 
@@ -108,6 +128,12 @@ nav.scrolled{
     margin-left: 35%;
     border-bottom: 3px dotted #fff;
     margin-bottom: 4%;
+    font-size: 16.5px;
+    font-weight: 1000;
+    color: #fff;
+}
+#aboutDiv1 #aboutMeText{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #img img{
@@ -121,8 +147,8 @@ nav.scrolled{
 }
 
 #name{
-    font-size:40px;
-    margin-left: 8%;
+    font-size:30px;
+    margin-left: 18%;
 }
 #navList{
     display: inline-flex;
@@ -197,12 +223,9 @@ nav.scrolled{
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
     padding: 2% 2% 2% 2%;
-    box-shadow: 0px 10px 15px rgba(255, 255, 255, 0.4);
-    /* font-weight: bolder; */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
     font-size: 18px;
-    /* padding-bottom: 500px; */
     text-align: center;
-    /* height: 30vh; */
 }
 
 #SkillWordDiv{
@@ -291,17 +314,17 @@ nav.scrolled{
     display: inline-block;
     margin: 4% 2%;
     color: rgba(3, 19, 72, .7);
-    box-shadow: 0px 10px 15px rgba(255, 255, 255, 0.4);
+    box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.4);
     background-color: #fff;
     padding: 3%;
     border-radius: 10px;
-    width: 250px;
     transition: .4s ease;
     cursor: pointer;
+    max-width: 250px;
 }
 
 #offer1:hover{
-    box-shadow: 0px 2px 5px rgba(255, 255, 255, 0.4);
+    box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.4);
 }
 
 #services{
@@ -318,28 +341,33 @@ nav.scrolled{
 #contact{
     background :  rgba(255, 255, 255, 0.6);
     padding: 5% 0% 5% 0%;
+    display: inline-flex;
     margin: 0% 1%;
     border-radius: 10px;
     color: rgb(0, 2, 63);
 }
 
+#contact2{
+    text-align: center;
+    margin-top: 0px;
+    align-items: center;
+    justify-content: center;
+}
+
 #contactDiv1 > fieldset{
-    width: 600px;
+    width: 60%;
     font-family: Arial, Helvetica, sans-serif;
     padding: 1%;
-    margin-left: 5%;
+    max-height: 85vh;
+    margin-left: 15%;
     display: inline-block;
 }
 
-#contactDiv1{
-    display: inline-table;
-}
-
 #contactDiv{
-    display: inline-table;
-    /* float: right; */
-    margin: 10%; 
-    /* padding: 5%; */
+    /* text-align: center; */
+    width: 40%;
+    margin-top: 2%;
+    margin-right: 15%;
 }
 
 #contactDiv div{
@@ -382,23 +410,23 @@ legend{
 }
 
 [type='submit']{
-    margin: 4% 35% ;
+    margin: 0% 35% ;
     /* letter-spacing: 1px; */
-    padding: 10px;
+    padding: 5px;
     font-family: Arial, Helvetic, sans-serif;
     border-radius: 5px;
     outline: none;
-    font-size: 17px;
+    font-size: 14px;
     border:none;
     transition: 1s ease-in-out ;
     background-color: rgb(0, 2, 63);
     color: rgb(255, 255, 255);
 }
 
-[type='submit']:hover{
-    color: rgb(0, 2, 63);
-    border: 1px solid rgb(0, 2, 63);
-    background-color: transparent;
+.sub:hover{
+    color: rgba(3, 19, 72);
+    background: transparent;
+    border:1px solid rgb(3, 19, 72);
 }
 
 fieldset{
@@ -525,13 +553,15 @@ fieldset{
     #about{
         background-color: #ecf0f3;
         align-items: center;
+        margin-left: 15%;
+        display: block;
         justify-content: center;
         box-shadow: -3px -3px -7px #fff,
-        3px 3px 5px #ceced1;
+                    3px 3px 5px #ceced1;
     }
     
-    #intr {
-
+    #nav {
+        display: none;
     }
     
     #img img{
@@ -543,15 +573,6 @@ fieldset{
         font-size:20px;
         margin-left: 27%;
     }
-
-    /* #navLIst{
-        margin-top: 29px;
-    } */
-
-    /* #navList h2{
-        margin: 0px;
-        margin-right: 30px;
-    } */
     
     #contactDiv1 > fieldset{
         width: 90%;
@@ -563,8 +584,10 @@ fieldset{
 
     #skills{
         background :  transparent;
-        padding: 0% 0% 0% 7%;
+        padding: 0% 0% 0% 17%;
         margin: 10%;
+        margin-top: 0%;
+        justify-content: center;
         border-radius: 10px;
         background-size: 100%;
         text-align: center;
@@ -572,7 +595,9 @@ fieldset{
     
     #skillWord{
         display: block;
-        width: 90%;
+        width: 70%;
+        margin-bottom: 10%;
+        padding: 2%;
         margin-top: 12%;
         border-radius: 10px;
         color: rgba(1, 11, 43);
@@ -625,39 +650,39 @@ fieldset{
     
     #SKILL{
         display:block;
-        /* margin-left: 76%; */
         text-align: center;
         margin-top: 2%;
+        max-width: 70%;
         margin-left: 5%;
     }
-/* 
-    nav.scrolled{
-        display:none;
-    } */
     
     .social{
         list-style-type: none;
-        margin-left: 20%;
+        margin-left: 36%;
         display: inline-flex;
     }
 
-    #aboutDiv{
-        box-shadow: -3px -3px -7px #fff,
-                     3px 3px 5px #ceced1;
+    
+    #about #name{
+        color: rgb(3, 19, 72);
+        margin-left: 35%;
     }
+    #about #phone,#about #gmail{
+        color: rgb(3, 19, 72);
+    }
+    
     #aboutDiv1{
         display: block;
         margin-top: 7%;
-        /* float: right; */
         background-color: rgba(3, 19, 72, .7);
-        margin-right:2%;
         text-align: center;
-        width: 97%;
         color: rgba(255, 255, 255, 0.9);
         border-radius: 12px 0;
+        padding: 3% ;
+        width: 70%;
+        min-height: 20%;
         border: 2px solid rgb(255, 255, 255);
         box-shadow: 0px 13px 15px rgba(0, 0, 0, 0.9);
-        padding: 1%;
     }
 
     #nav{
@@ -688,14 +713,13 @@ fieldset{
     }
     #contactDiv div{
         margin: 2%;
-        /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
         font-size: 14px;
     }
     #contactDiv{
         display: block;
         float: right;
         margin: 4% 8% 4% 0px; 
-        /* padding: 5%; */
+
     }
 
     #messageForm form input, textarea{
@@ -720,11 +744,26 @@ fieldset{
     
     [type='submit']{
         margin: 2% 35% 4% 35% ;
-        /* letter-spacing: 1px; */
-        /* padding: 3%; */
         font-size: 10px;
     }
-    td{
+
+    #service{
+        width: 45%;
+        min-height: 20%;
+        color: white;
+        text-align: center;
+        justify-content: center;
+        margin: 5% auto;
+        border-radius: 25px;
+        padding: 5% 5% 4% 5%;
+        background-color: rgba(3, 19, 72, .7);
+    }
+
+    #offer1{
         display: block;
     }
+    .scrolled{
+        display: none;
+    }
+    
 }
