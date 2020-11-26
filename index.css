@@ -769,7 +769,7 @@ fieldset {
     justify-content: center;
     margin: 5% auto;
     margin-left: 25%;
-    border-radius: 25px;
+    border-radius: 5px;
     padding: 5% 5% 4% 3%;
     background: rgba(3, 19, 72, 0.7);
   }
@@ -849,7 +849,7 @@ fieldset {
   #navList1 li a i{
     font-size: 10px;
     margin-right: 5%;
-    margin-left: 3%;
+    margin-left: 6%;
     text-align: center;
   }
 
