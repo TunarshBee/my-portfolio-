@@ -815,7 +815,7 @@ fieldset {
     text-align: center;
     justify-content: center;
     color: #000000;
-    background-color: #000000;
+    background-color: rgba(3, 19, 72, 1);
   }
   #navList1{
     display: block;
