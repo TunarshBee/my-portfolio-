@@ -593,8 +593,9 @@ fieldset {
   }
   #contact {
     display: block;
-    width: 83%;
-    left: 17%;
+    width: 100%;
+    height: 50%;
+    /* margin-left: 7%; */
   }
 
   #contactDiv1 > fieldset {
@@ -618,7 +619,7 @@ fieldset {
 
   #skillWord {
     display: block;
-    width: 87%;
+    width: 97%;
     margin-bottom: 10%;
     padding: 2%;
     margin-left: 10%;
@@ -636,10 +637,9 @@ fieldset {
 
   #skillsName {
     font-family: sans-serif;
-    /* margin: 1.5%; */
     text-align: center;
     margin-left: 10%;
-    /* font-family: 'Times New Roman', Times, serif; */
+    width: 100%;
     text-transform: uppercase;
     font-size: 16px;
   }
@@ -692,13 +692,13 @@ fieldset {
   #aboutDiv1 {
     display: block;
     margin-top: 7%;
-    margin-left: 15%;
+    margin-left: 5%;
     background-color: rgba(3, 19, 72, 0.7);
     text-align: center;
     color: rgba(255, 255, 255, 0.9);
     border-radius: 12px 0;
     padding: 3%;
-    width: 75%;
+    width: 95%;
     height: 40%;
     border: 2px solid rgb(255, 255, 255);
     box-shadow: 0px 13px 15px rgba(0, 0, 0, 0.9);
@@ -726,11 +726,12 @@ fieldset {
 
   #contactDiv div {
     margin: 2%;
-    font-size: 14px;
+    font-size: 10px;
   }
   #contactDiv {
     display: block;
-    margin: 4% 8% 4% 25%;
+    width: 80%;
+    margin: 4% 8% 4% 20%;
   }
 
   #messageForm form input,
@@ -761,31 +762,32 @@ fieldset {
 
   #service {
     width: 70%;
-    min-height: 20%;
-    color: white;
+    height: 10%;
+    color: rgb(255, 255, 255);
     text-align: center;
     justify-content: center;
     margin: 5% auto;
-    margin-left: 20%;
+    margin-left: 25%;
     border-radius: 25px;
     padding: 5% 5% 4% 3%;
-    background-color: rgba(3, 19, 72, 0.7);
+    background: rgba(3, 19, 72, 0.7);
   }
 
   #offer1 {
     display: block;
     width: 100%;
+    height: 25%;
     margin: 2%;
   }
   .scrolled {
     display: none;
   }
   #contactDiv1 > fieldset {
-    width: 50%;
+    width: 70%;
     font-family: Arial, Helvetica, sans-serif;
     padding: 1%;
     max-height: 80vh;
-    margin-left: 25%;
+    margin-left: 22%;
     display: inline-block;
   }
   #copyright,
@@ -828,22 +830,32 @@ fieldset {
     display: block;
     text-align: start;
     list-style: none;
-    font-size: 15px;
+    font-size: 10px;
     color: #ffffff;
-    margin-bottom: 10%;
+    margin-bottom: 30%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     letter-spacing: 1px;
     text-decoration: none;
   }
+  #navList1 li a span{
+    /* display: block; */
+    text-align: center;
+    font-size: 8px;
+    color: #ffffff;
+    margin-bottom: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
   #navList1 li a i{
+    font-size: 10px;
     margin-right: 5%;
-    margin-left: 10%;
+    margin-left: 3%;
+    text-align: center;
   }
 
   .social {
     /* position: absolute; */
     list-style-type: none;
-    margin: auto 22%;
+    margin-left: 30%;
     display: inline-flex;
   }
   
