@@ -566,6 +566,8 @@ fieldset {
   }
   * {
     box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
   }
   #bg {
     /* display: none; */
@@ -573,6 +575,7 @@ fieldset {
   }
   body {
     align-items: center;
+    /* width: 100%; */
     justify-content: center;
     background: #ecf0f3;
   }
@@ -643,7 +646,7 @@ fieldset {
   }
   #contact {
     display: block;
-    width: 100%;
+    /* width: 100%; */
     height: 50%;
     /* margin-left: 7%; */
   }
@@ -811,13 +814,13 @@ fieldset {
   }
 
   [type="submit"] {
-    margin: 1% 30% 0% 35%;
+    margin: 1% 35% 0% 35%;
     padding: 5px;
     font-family: Arial, Helvetic, sans-serif;
     border-radius: 20px;
     outline: none;
-    font-size: 14px;
-    width: 30%;
+    font-size: 10px;
+    width: 40%;
     transition: 1s ease-in-out;
     background: transparent;
     border: 1px solid rgb(255, 255, 255);
@@ -850,8 +853,7 @@ fieldset {
     width: 70%;
     font-family: Arial, Helvetica, sans-serif;
     padding: 1%;
-    height: 80vh;
-    background: chartreuse;
+    max-height: 80vh;
     margin-right: 22%;
     display: inline-block;
   }
@@ -884,8 +886,10 @@ fieldset {
     top: 0px;
     bottom: 0px;
     left: 0px;
+    border-top-left-radius: 10px;
     height: 100vh;
-    transition: all ease-in-out 0.8s;
+    padding-left: 2%;
+    transition: 0.8s ease-in-out ;
     background-color: rgba(3, 19, 72, 1);
   }
 
@@ -925,9 +929,10 @@ fieldset {
   }
 
   .social {
+    max-width: 50%;
     /* position: absolute; */
     list-style-type: none;
-    margin-left: 30%;
+    /* margin-left: 30%; */
     display: inline-flex;
   }
 
@@ -961,13 +966,13 @@ fieldset {
     /* width: 50%; */
     height: 1%;
     margin-top: 5%;
-    margin-bottom: 12%;
-    margin-left: 10%;
+    margin-bottom: 22%;
+    margin-left: 69%;
   }
 
   #tog > span {
     display: block;
-    width: 5px;
+    width: 20px;
     height: 2px;
     margin-top: 2%;
     height: 100%;
