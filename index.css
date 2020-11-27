@@ -5,15 +5,21 @@
   font-family: 'Roboto','baloo';
 }
 
+
+
 #nav1 {
   visibility: hidden;
 }
 
 #welcome {
   margin: 0;
-  font-family: Tahoma;
-  font-size: 90px;
+  font-family: 'acme',Tahoma ;
+  font-size: 100px;
   padding: 0%;
+}
+
+#side{
+  display: none;
 }
 
 ul li span i {
@@ -22,23 +28,25 @@ ul li span i {
 
 #im {
   display: inline;
+  line-height: 85px;
 }
 
 #bg {
   width: 100%;
   height: 100%;
-  /* opacity: 0.1; */
-  filter: opacity(0.7);
-  background: url("tropical-beach-sand-summer-holiday-background-travel-vacation-free-space-text-product-placement-93404396.jpg");
-  background-size: 100%;
+  background:linear-gradient(rgba(0,0,0,0.85),rgba(0,0,0,0.85)), 
+  url("tropical-beach-sand-summer-holiday-background-travel-vacation-free-space-text-product-placement-93404396.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   /* position: fixed; */
 }
 
 #home {
   font-weight: bolder;
-  background: url("bg1.png");
-  background-size: 100%;
-  background-repeat: no-repeat;
+  /* background: url("bg1.png"); */
+  /* background-size: 100%; */
+  /* background-repeat: no-repeat; */
   padding: 7% 0px 10% 0%;
   text-align: center;
   /* background-repeat: inherit; */
@@ -46,9 +54,9 @@ ul li span i {
 
 #myName {
   margin-left: 10px;
-  font-size: 110px;
+  font-size: 85px;
   margin-top: 0%;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'acme',Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #intro1 {
@@ -61,8 +69,7 @@ ul li span i {
 #task {
   letter-spacing: 2px;
   text-align: center;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  text-transform: uppercase;
+  font-family: 'giger',"Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 45px;
 }
 
@@ -89,7 +96,7 @@ nav.scrolled {
 }
 
 #about {
-  background-color: rgba(3, 19, 72, 0.7);
+  /* background-color: rgba(3, 19, 72, 0.7); */
   padding: 6%;
   display: flex;
   justify-content: center;
@@ -120,10 +127,10 @@ nav.scrolled {
   border: 1px solid #fff;
   text-align: center;
   border-radius: 14px;
-  padding: 5%;
+  padding: 2%;
   padding-bottom: 0%;
-  width: 37%;
-  height: 80vh;
+  width: 32%;
+  height: 60vh;
   box-shadow: 3px 3px 10px black;
   color: #fff;
   margin-left: 8%;
@@ -133,18 +140,18 @@ nav.scrolled {
   width: 30%;
   margin-left: 35%;
   border-bottom: 3px dotted #fff;
-  margin-bottom: 4%;
+  margin-bottom: 14%;
   font-size: 16.5px;
   font-weight: 1000;
   color: #fff;
 }
 #aboutDiv1 #aboutMeText {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 17px;
+  letter-spacing: 1.5px;
 }
 
 #img img {
-  /* position: absolute; */
-  /* border: 1px inset rgba(3, 19, 72)  ; */
   width: inherit;
   margin: auto;
   height: inherit;
@@ -156,14 +163,22 @@ nav.scrolled {
   font-size: 30px;
   margin-left: 18%;
 }
+
+#contactDiv #name {
+  /* font-size: 30px; */
+  margin-left: 0%;
+}
+
 #navList {
   display: inline-flex;
-  /* float: right; */
   padding-left: 15%;
   list-style: none;
   line-height: 10vh;
 }
 
+#profile i {
+  font-size: 25px;
+}
 #profile {
   color: rgb(255, 255, 255);
   margin-left: 5%;
@@ -203,40 +218,50 @@ nav.scrolled {
   transition: 0.9s ease-in-out;
 }
 
-#contactMe:hover {
+/* #contactMe:hover {
   background-color: #0e2160;
-}
+} */
 
 #skills {
-  background: rgba(255, 255, 255, 0.6);
+  /* background: rgba(255, 255, 255, 0.6); */
   padding: 5% 0% 5% 7%;
-  margin: 0% 1%;
+  /* margin: 0% 1%; */
+  /* color: #fff; */
   /* border:2px ridge rgba(3, 19, 72); */
   border-radius: 10px;
-  background-size: 100%;
-  text-align: center;
+  /* background-size: 100%; */
+  /* text-align: center; */
 }
 
 #skillWord {
-  /* display: inline=; */
-  width: 40%;
-  float: left;
-  color: rgba(1, 11, 43);
-  border-bottom: 2px solid rgba(3, 19, 72, 0.7);
-  border-right: 2px ridge rgba(3, 19, 72, 0.7);
-  border-left: 1px solid rgba(3, 19, 72, 0.7);
+  display: inline-block;
+  width: 30%;
+  /* float: left; */
+  color: rgb(255, 255, 255);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.7);
+  border-right: 2px ridge rgba(255, 255, 255, 0.7);
+  border-left: 1px solid rgba(255, 255, 255, 0.7);
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px;
   padding: 2% 2% 2% 2%;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
   font-size: 18px;
-  text-align: center;
+  margin-left: 7%;
+  /* text-align: center; */
 }
 
 #SkillWordDiv {
-  border-bottom: 2px solid rgb(0, 2, 63);
-  font-size: 46px;
+  text-align: center;
+  border-bottom: 2px solid rgb(255, 255, 255);
+  font-size: 36px;
   font-family: monospace;
+}
+#skillExpress
+{
+  text-align: center;
+  /* border-bottom: 2px solid rgb(255, 255, 255); */
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #skillsName {
@@ -249,8 +274,8 @@ nav.scrolled {
 }
 
 #skillsName b {
-  margin: 0px 0%;
-  color: rgba(3, 19, 72);
+  margin: 0% 0% 5px 5%;
+  color: rgb(255, 255, 255);
   letter-spacing: 2px;
   font-family: monospace;
 }
@@ -258,7 +283,8 @@ nav.scrolled {
 #progress {
   width: 270px;
   height: 18px;
-  margin-bottom: 4%;
+  margin-top: 2%;
+  margin-bottom: 3%;
   color: rgba(3, 19, 72, 0.7);
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 30px;
@@ -277,9 +303,9 @@ nav.scrolled {
 
 #SKILL {
   display: inline-block;
-  /* margin-left: 76%; */
-  margin-top: 1%;
-  margin-left: 20%;
+  margin-right: 15%;
+  margin-top: 2%;
+  margin-left: 25%;
 }
 
 #service {
@@ -289,8 +315,8 @@ nav.scrolled {
   text-align: center;
   margin: 5% auto;
   border-radius: 5px;
-  padding: 5% 5% 4% 5%;
-  background-color: rgba(3, 19, 72, 0.7);
+  padding: 10% 5% 4% 5%;
+  /* background-color: rgba(3, 19, 72, 0.7); */
 }
 
 #bigHeader {
@@ -327,10 +353,7 @@ nav.scrolled {
   transition: 0.4s ease;
   cursor: pointer;
   width: 25%;
-}
-
-#offer1:hover {
-  box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.4);
+  max-height: 39vh;
 }
 
 #services {
@@ -345,17 +368,17 @@ nav.scrolled {
 }
 
 #contact {
-  background: rgba(255, 255, 255, 0.6);
+  /* background: rgba(255, 255, 255, 0.6); */
   padding: 5% 0% 5% 0%;
   display: inline-flex;
   margin: 0% 1%;
   border-radius: 10px;
-  color: rgb(0, 2, 63);
+  color: rgb(255, 255, 255);
 }
 
 #contact2 {
-  text-align: center;
-  margin-top: 0px;
+  text-align: start;
+  margin-bottom: 5%;
   align-items: center;
   justify-content: center;
 }
@@ -365,7 +388,7 @@ nav.scrolled {
   font-family: Arial, Helvetica, sans-serif;
   padding: 1%;
   max-height: 85vh;
-  margin-left: 5%;
+  margin-left: 10%;
   display: inline-block;
 }
 
@@ -374,18 +397,18 @@ nav.scrolled {
   width: 40%;
   margin-top: 2%;
   margin-right: 5%;
-  margin-left: 15%;
+  margin-left: 10%;
 }
 
 #contactDiv div {
-  margin: 5px;
+  margin-bottom:5%;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 17px;
 }
 
 #contactDiv div:nth-child(1) {
   text-transform: uppercase;
-  margin-bottom: 10px;
+  /* margin-bottom: 10px; */
   font-size: 25px;
   font-family: Arial, Helvetica, sans-serif, serif;
 }
@@ -396,18 +419,22 @@ textarea {
   font-family: Arial, Helvetica, sans-serif;
   height: 35px;
   padding: 15px;
-  border: 1px solid black;
-  border-radius: 5px;
+  background: transparent;
+  border: 1px solid rgb(253, 253, 253);
+  border-radius: 20px;
   outline: none;
   margin: 1.5% 0%;
+  color: #fff;
 }
 
-#messageForm form input:nth-child(1) {
+form input:nth-child(1) {
   margin-top: 40px;
 }
 
 textarea {
+  border-radius: 10px;
   height: 110px;
+  resize: vertical;
 }
 
 legend {
@@ -421,23 +448,27 @@ legend {
 }
 
 [type="submit"] {
-  margin: 0% 30%;
-  padding: 5px;
+  margin: 1% 30% 2% 30%;
+  padding: 10px;
   font-family: Arial, Helvetic, sans-serif;
-  border-radius: 5px;
+  border-radius: 20px;
   outline: none;
   font-size: 14px;
-  border: none;
   width: 40%;
   transition: 1s ease-in-out;
-  background-color: rgb(0, 2, 63);
+  background:transparent;
+  border: 1px solid rgb(255, 255, 255);
   color: rgb(255, 255, 255);
+}
+label{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin-left: 2%;
 }
 
 .sub:hover {
-  color: rgba(3, 19, 72);
-  background: transparent;
-  border: 1px solid rgb(3, 19, 72);
+  color: rgb(255, 255, 255);
+  background:rgba(3, 19, 72, 0.7);
+  border: 1px solid #ffffffb3;
 }
 
 fieldset {
@@ -466,6 +497,16 @@ fieldset {
   background: linear-gradient(0deg, #ddd, #fff);
   transition: 0.4s;
   box-shadow: 0 10px 15px rgba(0, 0, 0, 0.4);
+}
+
+.social li a:hover{
+  width: 30px;
+  padding: 3px;
+  height: 30px;
+}
+
+.social li a .fa:hover{
+  line-height: calc(30px - 3px);
 }
 
 .social li a .fa {
@@ -504,17 +545,18 @@ fieldset {
 
 #footer {
   width: 100%;
-  background-color: rgba(3, 19, 72, 0.7);
   color: #fff;
   font-size: 19px;
   text-align: center;
+  border-top: 2px solid #fff;
   padding: 1%;
+  margin-top: 1%;
+  /* background-color: rgb(0, 2, 63); */
 }
 
 #copyright,
 #copyright > i {
-  font-family: montserrat, "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: sans-serif;
   font-weight: lighter;
 }
 
@@ -525,16 +567,16 @@ fieldset {
   body {
     align-items: center;
     justify-content: center;
-    background: #ecf0f3 !important;
+    background: #ecf0f3;
   }
   #bg{
       display: none;
   }
 
   #home{
-    width: 83%;
+    width: 100%;
     padding: 0%;
-    margin-left: 17%;
+    /* margin-left: 17%; */
   }
 
   ul li a span i {
@@ -717,7 +759,7 @@ fieldset {
   #profile1 {
     color: rgb(255, 255, 255);
     display: inline-block;
-    margin-top: 50%;
+    margin-top: 10%;
     margin-bottom: 25%;
     font-family: tahoma;
     /* padding-left: 20%; */
@@ -815,9 +857,17 @@ fieldset {
     position: fixed;
     text-align: center;
     justify-content: center;
-    color: #000000;
+
+  }
+  #sidebar{
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    height: 100vh;
+    transition: all ease-in-out 0.8s;
     background-color: rgba(3, 19, 72, 1);
   }
+
   #navList1{
     display: block;
     text-align: center;
@@ -885,7 +935,27 @@ fieldset {
     line-height: calc(20px - 2px);
     color: #262626;
     transition: 0.9s;
+  } 
+  #tog{
+    /* width: 50%; */
+    height: 1%;
+    margin-top: 10%;
+    margin-bottom: 35%;
+    margin-left: 10%;
+    
   }
-  
+
+  #tog > span{
+    display: block;
+    width: 10px;
+    height: 2px;
+    margin-top: 10%;
+    height: 100%;
+    background-color: rgba(3, 19, 72, 1);
+  }
+  #nav1 .active{
+    visibility: hidden;
+    background: transparent;
+  }
   
 }
