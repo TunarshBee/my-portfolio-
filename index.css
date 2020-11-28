@@ -375,7 +375,7 @@ nav.scrolled {
 }
 
 #contact2 {
-  text-align: start;
+  text-align: center;
   margin-bottom: 5%;
   align-items: center;
   justify-content: center;
@@ -569,7 +569,7 @@ fieldset {
     box-sizing: border-box;
     margin: 0%;
     padding: 0%;
-    color: cyan;
+    
   }
   #bg {
     /* display: none; */
@@ -657,10 +657,15 @@ fieldset {
   #contactDiv1 > fieldset {
     width: 90%;
     font-family: Arial, Helvetica, sans-serif;
-    padding: 1%;
+    padding: 3%;
     margin-left: 5%;
     display: block;
-    border: 2px solid cyan;
+    border: 2px solid #091921;
+    border-radius: 15px;
+    box-shadow: -1px -1px 3px rgba(255, 255, 255, 0.1),
+      2px 2px 6px rgba(0, 0, 0, 0.2),
+      inset -2px -2px 6px rgba(255, 255, 255, 0.1),
+      inset 4px 4px 10px rgba(0, 0, 0, 0.2);
   }
 
   #skills {
@@ -693,8 +698,9 @@ fieldset {
   }
 
   #SkillWordDiv {
-    border-bottom: 2px solid rgb(0, 2, 63);
+    border-bottom: 2px dotted rgb(255, 255, 255);
     font-size: 26px;
+    color: #fff;
     font-family: monospace;
   }
 
@@ -745,7 +751,7 @@ fieldset {
 
   #about #name {
     text-align: center;
-    color: cyan;
+    color: rgb(255, 255, 255);
     margin-left: 20%;
   }
 
@@ -800,6 +806,10 @@ fieldset {
     font-size: 12px;
   }
 
+  #contact2{
+    color: #fff;
+  }
+
   #contactDiv #name,
   #contactDiv div {
     margin: 2%;
@@ -827,6 +837,10 @@ fieldset {
 
   textarea {
     height: 35px;
+  }
+
+  legend,h6{
+    color: #fff;
   }
 
   legend {
@@ -905,7 +919,7 @@ fieldset {
   }
 
   #nav1 {
-    visibility: visible;
+    visibility: hidden;
     width: 20%;
     top: 0px;
     bottom: 0px;
@@ -1003,8 +1017,8 @@ fieldset {
     /* width: 50%; */
     height: 1%;
     margin-top: 5%;
-    margin-bottom: 25%;
-    margin-left: 60%;
+    margin-bottom: 20%;
+    margin-left: 65%;
   }
 
   #tog > span {
@@ -1014,23 +1028,23 @@ fieldset {
     border-radius: 2px;
     height: 100%;
     background-color: rgb(255, 255, 255);
+    visibility: visible;
   }
   #nav1 .active {
-    visibility: hidden;
-    background: transparent;
+    visibility: visible;
+    background: #091921;
+    transition: all .8s ease-in-out;
   }
   #side {
     display: inline-block;
   }
   #aboutDiv #gmail,
-#aboutDiv #phone,
-#bigHeader,
-h6{
+  #aboutDiv #phone{
   color: cyan;
 }
 #aboutDiv1 #aboutMe {
-  color: cyan;
-  border-bottom:2px dotted cyan;
+  /* color: cyan; */
+  /* border-bottom:2px dotted cyan; */
   font-family: 'Times New Roman', Times, serif;
   text-transform: uppercase;
 }
