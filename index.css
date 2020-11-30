@@ -942,8 +942,8 @@ fieldset {
     height: 100vh;
     padding-left: 2%;
     color: cyan;
-    transition: all 0.3s ease-in-out;
-    background-color:#091921;
+    transition: all 0.3s ease;
+    background-color:#09192185;
     box-shadow: inset -3px -3px 8px rgba(0, 0, 0, 0.9),
                  3px 3px 10px rgba(99, 99, 99, 0.9);
   }
@@ -989,7 +989,7 @@ fieldset {
     max-width: 50%;
     /* position: absolute; */
     list-style-type: none;
-    margin-left: 30%;
+    margin-left: 40%;
     display: inline-flex;
   }
 
@@ -1038,8 +1038,8 @@ fieldset {
   }
   #nav1 .active {
     visibility: visible;
-    background: #091921;
-    transition: all .8s ease-in-out;
+    background: #09192185;
+    transition: all .8s ease;
   }
   #side {
     display: inline-block;
