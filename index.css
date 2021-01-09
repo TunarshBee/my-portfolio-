@@ -312,7 +312,7 @@ nav.scrolled {
   text-align: center;
   margin: 5% auto;
   border-radius: 5px;
-  padding: 10% 5% 4% 5%;
+  /* padding: 10% 5% 4% 5%; */
   /* background-color: rgba(3, 19, 72, 0.7); */
 }
 
@@ -351,7 +351,7 @@ nav.scrolled {
   transition: 0.4s ease;
   cursor: pointer;
   width: 25%;
-  max-height: 39vh;
+  /* max-height: 39vh; */
 }
 
 #services {
@@ -552,8 +552,6 @@ fieldset {
   border-top: 2px solid #fff;
   padding: 1%;
   margin-top: 1%;
-
-  /* background-color: rgb(0, 2, 63); */
 }
 
 #copyright,
@@ -705,6 +703,10 @@ fieldset {
       inset 4px 4px 10px rgba(0, 0, 0, 0.2);
   }
 
+  #contact{
+    margin-left: 30%;
+  }
+
   #SkillWordDiv {
     border-bottom: 2px dotted rgb(255, 255, 255);
     font-size: 26px;
@@ -730,7 +732,7 @@ fieldset {
   }
 
   #progress {
-    width: 70%;
+    width: 100%;
     height: 18px;
     margin-bottom: 4%;
     color: rgba(3, 19, 72, 0.7);
@@ -749,12 +751,16 @@ fieldset {
     border-radius: 30px;
   }
 
+  #offer1 img{
+    width: 50px;
+  }
+
   #SKILL {
     display: block;
     text-align: center;
     margin-top: 2%;
     width: 83%;
-    margin-right: 17%;
+    margin-left: 17%;
   }
 
   #about #name {
@@ -873,7 +879,7 @@ fieldset {
   }
 
   #service {
-    width: 70%;
+    /* width: 70%; */
     height: 10%;
     color: cyan;
     text-align: center;
@@ -896,6 +902,7 @@ fieldset {
     color: #091921;
     height: 25%;
     margin: 2%;
+    margin-bottom: 5%;
     /* border: 2px solid #091921; */
     box-shadow: inset -1px -1px 4px rgba(255, 255, 255, 0.4),
                 inset 2px 2px 6px rgba(0, 0, 0, 0.4);
