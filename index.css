@@ -311,8 +311,9 @@ nav.scrolled {
   color: white;
   text-align: center;
   margin: 5% auto;
+  margin-top: 10%;
   border-radius: 5px;
-  /* padding: 10% 5% 4% 5%; */
+  padding: 10% 0% 4% 0%;
   /* background-color: rgba(3, 19, 72, 0.7); */
 }
 
@@ -449,7 +450,7 @@ legend {
 
 [type="submit"] {
   margin: 1% 30% 2% 30%;
-  padding: 10px;
+  padding: 1%;
   font-family: Arial, Helvetic, sans-serif;
   border-radius: 20px;
   outline: none;
@@ -569,7 +570,7 @@ fieldset {
     box-sizing: border-box;
     margin: 0%;
     padding: 0%;
-    
+    height: auto;
   }
   #bg {
     width: 100%;
@@ -704,7 +705,7 @@ fieldset {
   }
 
   #contact{
-    margin-left: 30%;
+    margin-left: 5%;
   }
 
   #SkillWordDiv {
@@ -766,7 +767,6 @@ fieldset {
   #about #name {
     text-align: center;
     color: rgb(255, 255, 255);
-    margin-left: 20%;
   }
 
   #aboutDiv {
@@ -790,6 +790,7 @@ fieldset {
     color: cyan;
     border-radius: 12px 0;
     padding: 1%;
+    padding-bottom: 5%;
     padding-left: 3%;
     width: 99%;
     height: 40%;
