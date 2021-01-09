@@ -130,7 +130,6 @@ nav.scrolled {
   padding: 2%;
   padding-bottom: 0%;
   width: 32%;
-  height: 60vh;
   box-shadow: 3px 3px 10px black;
   color: #fff;
   margin-left: 8%;
@@ -218,25 +217,24 @@ nav.scrolled {
   transition: 0.9s ease-in-out;
 }
 
-/* #contactMe:hover {
-  background-color: #0e2160;
-} */
-
 #skills {
-  /* background: rgba(255, 255, 255, 0.6); */
-  padding: 5% 0% 5% 7%;
-  /* margin: 0% 1%; */
-  /* color: #fff; */
-  /* border:2px ridge rgba(3, 19, 72); */
   border-radius: 10px;
-  /* background-size: 100%; */
-  /* text-align: center; */
+  padding-top: 5%;
+  justify-content: center;
+  align-items: center;
+  display: block;
+}
+
+#skillList{
+  margin-left: 20%;
+  display: inline-block;
+
+  /* padding-top: 10%; */
 }
 
 #skillWord {
   display: inline-block;
   width: 30%;
-  /* float: left; */
   color: rgb(255, 255, 255);
   border-bottom: 2px solid rgba(255, 255, 255, 0.7);
   border-right: 2px ridge rgba(255, 255, 255, 0.7);
@@ -282,7 +280,7 @@ nav.scrolled {
 #progress {
   width: 270px;
   height: 18px;
-  margin-top: 2%;
+  /* margin-top: 2%; */
   margin-bottom: 3%;
   /* color: rgba(3, 19, 72, 0.7); */
   background-color: rgba(0, 0, 0, 0.5);
@@ -301,10 +299,10 @@ nav.scrolled {
 }
 
 #SKILL {
-  display: inline-block;
-  margin-right: 15%;
+  display: block;
+  /* margin-right: 15%; */
   margin-top: 2%;
-  margin-left: 25%;
+  /* margin-left: 25%; */
 }
 
 #service {
