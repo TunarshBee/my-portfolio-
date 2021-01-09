@@ -164,13 +164,11 @@ nav.scrolled {
 }
 
 #contactDiv #name {
-  /* font-size: 30px; */
   margin-left: 0%;
 }
 
 #navList {
   display: inline-flex;
-  padding-left: 15%;
   list-style: none;
   line-height: 10vh;
 }
@@ -182,7 +180,7 @@ nav.scrolled {
   color: rgb(255, 255, 255);
   margin-left: 5%;
   display: inline-block;
-  font-family: tahoma;
+  font-family: 'signature',tahoma;
   margin-right: 40%;
 }
 
@@ -350,9 +348,14 @@ nav.scrolled {
   padding: 3%;
   border-radius: 10px;
   transition: 0.4s ease;
+  min-height: 30%;
   cursor: pointer;
   width: 25%;
   /* max-height: 39vh; */
+}
+
+#offer1 img{
+  width: 40px;
 }
 
 #services {
