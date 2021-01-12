@@ -383,7 +383,6 @@ nav.scrolled {
   width: 100%;
   justify-content: center;
   align-items: center;
-  margin: 0% 1%;
   background: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url('pexels-pixabay-531321.jpg');
   flex-direction: column;
   background-size: cover;
@@ -1060,5 +1059,4 @@ label {
   height: 30px;
   font-size: 20px;
 }
-
 }
