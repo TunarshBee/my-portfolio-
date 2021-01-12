@@ -586,7 +586,7 @@ label {
 @media (max-width: 750px) {
   #name {
     font-size: 30px;
-    margin-left: 34%;
+    margin-left: 10%;
   }
   * {
     box-sizing: border-box;
