@@ -676,27 +676,7 @@ label {
   #name {
     font-size: 16px;
   }
-  #contact {
-    display: block;
-    /* width: 100%; */
-    color: cyan;
-    height: 50%;
-    /* margin-left: 7%; */
-  }
 
-  #contactDiv1 > fieldset {
-    width: 90%;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 3%;
-    margin-left: 5%;
-    display: block;
-    border: 2px solid #091921;
-    border-radius: 15px;
-    box-shadow: -1px -1px 3px rgba(255, 255, 255, 0.1),
-      2px 2px 6px rgba(0, 0, 0, 0.2),
-      inset -2px -2px 6px rgba(255, 255, 255, 0.1),
-      inset 4px 4px 10px rgba(0, 0, 0, 0.2);
-  }
 
   #skills {
     background: transparent;
@@ -725,10 +705,6 @@ label {
       2px 2px 6px rgba(0, 0, 0, 0.2),
       inset -2px -2px 6px rgba(255, 255, 255, 0.1),
       inset 4px 4px 10px rgba(0, 0, 0, 0.2);
-  }
-
-  #contact{
-    margin-left: 5%;
   }
 
   #SkillWordDiv {
@@ -844,20 +820,7 @@ label {
     font-size: 12px;
   }
 
-  #contact2{
-    color: #fff;
-  }
 
-  #contactDiv #name,
-  #contactDiv div {
-    margin: 2%;
-    font-size: 10px;
-  }
-  #contactDiv {
-    display: block;
-    width: 60%;
-    margin: 4% 20% 4% 8%;
-  }
 
   #messageForm form input,
   textarea {
@@ -869,27 +832,10 @@ label {
     margin: 0%;
   }
 
-  #messageForm form input:nth-child(1) {
-    margin-top: 7%;
-  }
 
-  textarea {
-    height: 35px;
-  }
-
-  legend,h6{
-    color: #fff;
-  }
-
-  legend {
-    text-transform: uppercase;
-    text-align: center;
-    /* padding: %; */
-    font-size: 16px;
-  }
 
   [type="submit"] {
-    margin: 1% 35% 0% 30%;
+    margin: 1% 35% 0% 2%;
     padding: 5px;
     font-family: Arial, Helvetic, sans-serif;
     border-radius: 20px;
@@ -934,14 +880,7 @@ label {
   .scrolled {
     display: none;
   }
-  #contactDiv1 > fieldset {
-    width: 70%;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 1%;
-    max-height: 80vh;
-    margin-right: 22%;
-    display: inline-block;
-  }
+
   #copyright,
   #copyright > i {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -1095,6 +1034,31 @@ label {
 }
 #aboutDiv #gmail{
   font-size: 13px;
+}
+
+#contactContainer{
+  display: block;
+}
+#contactContainer .contactInfo{
+  width: 100%;
+  display: block;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+.contactForm{
+  width: 90%;
+  margin-left: 5%;
+  padding: 5%;
+}
+#content{
+  font-size: 16px;
+  align-self: flex-start;
+}
+#contactContainer .contactInfo .box .icon{
+  min-width: 30px;
+  height: 30px;
+  font-size: 20px;
 }
 
 }
